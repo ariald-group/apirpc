@@ -1,0 +1,43 @@
+{
+  "name": "ariald-group/apirpc2",
+  "description": "Api JSON-RPC",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/ariald-group/ApiRpc",
+  "keywords": [
+    "ariald",
+    "apirpc",
+    "api",
+    "rpc",
+    "json-rpc"
+  ],
+  "authors": [
+    {
+      "name": "Ariald Group",
+      "email": "github@ariald.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ApiRpc\\": "ApiRpc/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "ariald-group/apirpc",
+        "version": "1.0",
+        "source": {
+          "url": "https://github.com/ariald-group/apirpc",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*"
+  }
+}

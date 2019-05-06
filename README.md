@@ -1,6 +1,6 @@
 # ApiRpc / JSON-RPC
 
-**Requirements: PHP 7.2** due to the use of `namespaces`.
+**Requirements: PHP 7.1+** due to the use of `namespaces`.
 
 ## Installation
 
