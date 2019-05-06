@@ -1,9 +1,9 @@
 {
-  "name": "ariald-group/apirpc2",
+  "name": "ariald-group/apirpc",
   "description": "Api JSON-RPC",
   "minimum-stability": "stable",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/ariald-group/ApiRpc",
+  "homepage": "https://github.com/ariald-group/apirpc",
   "keywords": [
     "ariald",
     "apirpc",
