@@ -3,7 +3,7 @@
      * ApiRpcException
      *
      * Date: 06/05/2019
-     * @version   1.0
+     * @version   1.0.1
      * @author    Vitaliy Kurshinov
      * @copyright Ariald Group
      * @link      https://ariald.com

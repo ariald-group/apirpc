@@ -43,10 +43,14 @@
          * @param int    $amount
          * @param string $str
          *
+         * @return array
          */
-        public function testMethod2(int $amount, string $str = 'Hello')
+        public function testMethod2(int $amount, string $str = 'Hello') : array
         {
-            var_dump(func_get_args());
+            return [
+                'amount' => $amount,
+                'str'    => $str
+            ];
         }
     }
 
@@ -79,7 +83,10 @@
             $ApiRpcJson->getParams()
         );
 
-        echo PHP_EOL . 'Response: ' . $ApiRpcJson->getResponse($ApiResult) . PHP_EOL;
+        if (is_array($ApiResult))
+        {
+            echo PHP_EOL . 'Response: ' . $ApiRpcJson->getResponse($ApiResult) . PHP_EOL;
+        }
 
         echo PHP_EOL . 'Print all api methods' . PHP_EOL . PHP_EOL;
 
