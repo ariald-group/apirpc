@@ -5,5 +5,5 @@
 ## Installation
 
 ```bash
-composer require ariald-group/apirpc
+composer require ariald-group/apirpc:dev-master
 ```
