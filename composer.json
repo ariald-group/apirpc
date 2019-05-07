@@ -27,7 +27,7 @@
       "type": "package",
       "package": {
         "name": "ariald-group/apirpc",
-        "version": "1.0",
+        "version": "1.0.1",
         "source": {
           "url": "https://github.com/ariald-group/apirpc",
           "type": "git",
